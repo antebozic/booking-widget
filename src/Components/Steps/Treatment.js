@@ -24,8 +24,7 @@ class Treatment extends Component {
 		const styles = {
 			Paper: { height: 550, boxShadow: 'none' },
 			Grid: {
-				textAlign: 'center',
-				paddingTop: 0
+				textAlign: 'center'
 			},
 			Typography: {
 				paddingBottom: 20,
@@ -33,8 +32,6 @@ class Treatment extends Component {
 			}
 		};
 		return (
-			// <div className="treatement__wrap">
-
 			<Grid container>
 				<Header titleText={'Treatment'} />
 				<Grid item sm style={styles.Grid}>
@@ -98,8 +95,6 @@ class Treatment extends Component {
 				</Grid>
 				<Footer urlNext={'/time'} btnText={'Next'} />
 			</Grid>
-
-			// </div>
 		);
 	}
 }

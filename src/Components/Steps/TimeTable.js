@@ -24,8 +24,7 @@ class TimeTable extends Component {
 		const styles = {
 			Paper: { height: 550, boxShadow: 'none' },
 			Grid: {
-				textAlign: 'center',
-				paddingTop: 0
+				textAlign: 'center'
 			},
 			Typography: {
 				paddingBottom: 20,
